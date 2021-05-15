@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/dotnet-react.csproj",
+        "${workspaceFolder}/dotnet-react-solution.sln",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/dotnet-react.csproj",
+        "${workspaceFolder}/dotnet-react-solution.sln",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -32,7 +32,8 @@
       "args": [
         "watch",
         "run",
-        "${workspaceFolder}/dotnet-react.csproj",
+        "-p",
+        "${workspaceFolder}/src/dotnet-react/dotnet-react.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
