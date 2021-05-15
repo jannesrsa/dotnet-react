@@ -8,7 +8,7 @@ namespace dotnet_react.Tests
         [Fact]
         public void Test1()
         {
-
+            Assert.True(true);
         }
     }
 }
